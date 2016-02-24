@@ -5,28 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="js/jQuery/jquery-2.1.1.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/general.css">
+    <link rel="stylesheet" type="text/css" href="css/general.css">  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
     <title>Cemetery</title>
 </head>
-
 <body>
 
-<div style="position:relative" class="container-full">
+<!--HEADER-->
+<div class="container-full">
   <div class="row">
     <div style="padding:0;"class="col-md-12 col-xs-12 col-sm-12">
-      <!--<iframe id="headerVideo" src="https://www.youtube.com/embed/aNN9nL2vppM"></iframe> -->
-      <div class="absolute">Eugene Masonic Cemetery</div>
 
+      <div id="buttons">
+      <a id="button0" href="https://www.dailyemerald.com"><img id="emerald" src="img/logo.png"></a>
+      <a id="button1" href="https://www.twitter.com"><img id="twitter" src="img/twitter.png"></a>
+      <a id="button2" href="https://www.facebook.com"> <img id="facebook" src="img/fb.png"></a>
+     </div> 
+      <div class="absolute">Eugene Masonic Cemetery</div>
       <div class="nextAb">You walk through it every day.<br>How much do you actually know about it?</div>
-      <video id="headerVideo" loop autoplay="autoplay">
+
+       
+
+      <video id="headerVideo" loop autoplay="autoplay" muted>
         <source src="dog.mp4" type="video/mp4">
       </video>
+
     </div>
     </div>
 </div>
 
+
+<!--BODY 1-->
 
 <div class="container">
   <div class="row">
@@ -84,6 +94,9 @@ si cus accae et pedigni tasped molorem lantiis il mo consequid
 </div>
 
 
+
+<!--BODY 2-->
+
 <div class="container">
   <div class="row">
     <div class="col-md-3"></div>
@@ -139,6 +152,7 @@ modiciatem at.
 </div>
 
 
+<!--BODY 3-->
 
 <div class="container">
   <div id="body3" class="row">
@@ -204,6 +218,7 @@ tiatio dollatus, omnis dolumendipis alitass itaecto conse quia
   </div>
 </div>
 
+<!--PICTURES-->
 
 <div class="container">
   <div id="body3" class="row">
@@ -217,16 +232,13 @@ tiatio dollatus, omnis dolumendipis alitass itaecto conse quia
       Agni unt ut quodit et aut aturiae nonsed etur
 lab il magnam aut etur?
     </div>
-
     <div class="col-md-4 col-xs-12 col-xs-12">
       <img class="picture" src="http://www.thaidelightalaska.com/backend/uploads/products/34-banner-20150805103120B5.jpg"/>
-     
     </div>
-
- 
   </div>
 </div>
 
+<!--BODY-->
 <div class="container">
   <div id="body3" class="row">
     <div class="col-md-6 col-xs-12 col-xs-12">
@@ -251,22 +263,60 @@ magnat fuga. Et lam acestis doluptatis molut des et ad que aut
 andus doluptis experep eritis earum autatur reptatur magniss
 edicia vollecaerum quasim que quaepressi core volupta tempedios
 qui cus, ullabor emquia simpore pudandionse occuptatur,
-soluptinum qui dendis accus dolorro quas moluptatur, quam t
-     
+soluptinum qui dendis accus dolorro quas moluptatur, quam t    
     </div>
-
     <div class="col-md-6 col-xs-12 col-xs-12">
       <img class="bottompicture" src="http://www.thaidelightalaska.com/backend/uploads/products/34-banner-20150805103120B5.jpg"/>
-  
     </div>
-
-
-
- 
   </div>
 </div>
 
 
+<!--MAP-->
+<div id="warning" class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <p style="font-size:200%">FLIP TO LANDSCAPE</p>
+      <img id="stillmap" src="img/map.png"/>
+    </div>
+  </div>
+</div>
 
+
+<div id="wholemap" class="container">
+  <div class="row">
+    <div id="relative" class="col-xs-12">
+
+      <img id="map" src="img/map.png"/>
+      <div class="list-group">
+        <button type="button" class="list-group-item">Cras justo odio</button>
+        <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+        <button type="button" class="list-group-item">Morbi leo risus</button>
+        <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+        <button type="button" class="list-group-item">Vestibulum at eros</button>
+        <button type="button" class="list-group-item">Vestibulum at eros</button>
+        <button type="button" class="list-group-item">Vestibulum at eros</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
+
+
+<!-- GOOGLE ANALYTICS-->
+<script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-56398960-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </html>

@@ -6,6 +6,7 @@
 .container-full {
   margin: 0 auto;
   width: 100%;
+  position:relative
 }
 
 video{
@@ -13,15 +14,18 @@ video{
 }
 
 div .absolute{
+
 	position: absolute;
 	left: 40%;
 	bottom: 10%;
 	width: 100%;
     height: 20%;
     font-size: 400%;
+
 }
 
 div .nextAb{
+
 	position: absolute;
 	left: 40%;
 	bottom: 0;
@@ -29,6 +33,7 @@ div .nextAb{
     height: 20%;
     font-size: 200%;
     text-align:center;
+
 }
 
 #author{
@@ -63,3 +68,260 @@ div .nextAb{
 	width: 100%;
 	height: 450px;
 }
+
+img#map{
+	width: 100%;
+	height: auto;
+}
+
+img#stillmap{ width: 100%;
+	height: auto; }
+
+#relative{
+	position:relative;
+	padding-bottom: 10%;
+}
+
+.list-group{
+	position: absolute;
+	right: 3%;
+	top: 5%;
+	width: 15%;
+	height: auto;
+
+}
+
+.list-group button{
+	width: 100%;
+	height: auto;
+}
+
+.list-group button:hover{
+	background-color: black;
+	color:white;
+}
+
+
+
+div #buttons{
+		position: absolute;
+		width:15%;
+		right:0%;
+		z-index: 2;
+}
+
+
+#emerald{
+	width: 33px;
+	height:33px;
+}
+
+
+#twitter{
+	width: 60px;
+	height: 60px;
+}
+
+#facebook{
+	width: 35px;
+	height: 35px;
+}
+
+#twitter:hover {
+    -webkit-filter: brightness(150%);
+}
+
+#emerald:hover {
+    -webkit-filter: brightness(150%);
+}
+
+#facebook:hover {
+    -webkit-filter: brightness(150%);
+}
+
+
+
+#warning
+{
+	display:none;
+}
+#stillmap
+{
+	display:none; 
+}
+
+
+@media screen and (max-width: 700px) and (orientation:landscape){
+
+	#warning{
+		display:none;
+	}
+
+	#stillmap{
+		display:none;
+	}
+
+	div #buttons{
+		position: absolute;
+		width:25%;
+		top:0;
+		right:0;
+		align:right;
+		z-index: 2;
+	}
+
+	#twitter{
+	width: 20px;
+	height: 20px;
+	}
+
+
+	#emerald{
+		width: 13px;
+		height:13px;
+	}
+
+
+	#facebook{
+	width: 15px;
+	height: 15px;
+	}
+
+		div .absolute{
+		position: relative;
+		font-size: 250%;
+		text-align:center;
+		width:100%;
+		left:0;
+		padding-top: 7%;
+	}
+
+
+	div .nextAb{
+	position: relative;
+	font-size: 120%;
+		text-align:center;
+		width:100%;
+		left:0;
+		padding-bottom: 2%;
+	}
+
+	.list-group{
+	position: absolute;
+	right: 3%;
+	top: 5%;
+	width: 15%;
+	height: auto;
+
+	}
+
+	.list-group button{
+	width: 100%;
+	height: 30%;
+	font-size:60%;
+	}
+
+	.list-group button:hover{
+	background-color: black;
+	color:white;
+	}
+
+}
+
+
+
+@media screen and (max-width: 640px){
+
+	div #buttons{
+		position: absolute;
+		width:30%;
+		top:0;
+		right:0;
+		align:right;
+		z-index: 2;
+	}
+
+	#twitter{
+	width: 20px;
+	height: 20px;
+	}
+
+
+	#emerald{
+		width: 13px;
+		height:13px;
+	}
+
+
+	#facebook{
+	width: 15px;
+	height: 15px;
+	}
+
+	.container-full{
+		padding-top:2%;
+		text-align: center;
+	}
+
+	div .absolute{
+		position: relative;
+		font-size: 150%;
+		text-align:center;
+		width:100%;
+		left:0;
+		padding-top:5%;
+	}
+
+
+	div .nextAb{
+	position: relative;
+	font-size: 90%;
+		text-align:center;
+		width:100%;
+		left:0;
+		padding-bottom: 5%;
+	}
+
+	.list-group button{
+	width: 90%;
+	height: 35px;
+	position:relative;
+	font-size:30%;
+	text-align:=-webkit-auto;
+	}
+
+	#relative{
+		position:absolute;
+	}
+
+	.list-group button:hover{
+	background-color: black;
+	color:white;
+	}
+
+	.picture{
+	width: 100%;
+	height: auto;
+	}
+
+}
+
+
+
+@media only screen and (orientation:portrait){
+
+
+        #warning
+        {
+        display:block;
+    	}
+        #stillmap{
+         display:block; 
+         padding-bottom: 5%;
+     	}
+
+     	div#wholemap{
+     		display: none;
+     	}
+ }
+
