@@ -91,6 +91,23 @@
 
 @media screen and (max-width: 640px){
 
+	div .text{
+	margin-top: 4%;
+}
+
+	div .picLeft{
+	width: 100%;
+}
+
+div .picRight{
+	width: 100%;
+	display: table;
+	padding-left: 4%;
+	vertical-align: center;
+	float:right;
+}
+
+
 	div #buttons{
 		position: absolute;
 		width:40%;
