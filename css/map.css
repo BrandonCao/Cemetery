@@ -1,0 +1,92 @@
+#map1,#map2,#map3,#map4,#map5,#map6,#map7{
+	width: 100%;
+	height: auto;
+}
+
+img#stillmap{ width: 100%;
+	height: auto; }
+
+#relative{
+	position:relative;
+	padding-bottom: 10%;
+}
+
+.list-group{
+	position: absolute;
+	right: 3%;
+	top: 5%;
+	width: 15%;
+	height: auto;
+
+}
+
+.list-group button{
+	outline: 0;
+	width: 100%;
+	height: auto;
+}
+
+.list-group button:hover{
+	outline: 0;
+	background-color: black;
+	color:white;
+}
+
+.list-group button:active 
+{ 
+	outline: 0;
+	background-color: SteelBlue; 
+	color: White;
+}
+
+@font-face {
+    font-family: garreg;
+    src: url(font/garreg.ttf);
+}
+
+@font-face {
+    font-family: maven;
+    src: url(font/maven.ttf);
+}
+
+div #buttons{
+		position: absolute;
+		width:35%;
+		right:3%;
+		z-index: 2;
+		text-align:right;
+}
+
+
+
+img#map1{
+	display: block;
+}
+img#map2{
+	display: none;
+}
+img#map3{
+	display: none;
+}
+img#map4{
+	display: none;
+}
+img#map5{
+	display: none;
+}
+img#map6{
+	display: none;
+}
+img#map7{
+	display: none;
+}
+
+
+#warning
+{
+	display:none;
+}
+#stillmap
+{
+	display:none; 
+}
